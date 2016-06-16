@@ -1,0 +1,124 @@
+body{ background:#000000;}
+#bottom-right
+        {
+            display:block;
+			position:absolute;
+			bottom:0;
+			right:0;
+			width:200px;			
+			background:#FFFFFF;
+			height:200px;
+			border:1px solid #ddd;
+			margin-right:20px;
+			overflow: auto;
+
+
+        }
+#bottom-right p
+		{
+			margin:0px;
+			padding:0px;
+			font-family:tahoma;
+			font-size:11px;
+			display:block;
+			margin:5px;
+			text-transform:lowercase;
+		}
+#bottom-right b
+		{
+			color:#990000;
+			margin-bottom:4px;
+			text-transform:uppercase;
+		}
+#bottom-right span
+		{
+			color:#666666;
+			font-size:10px;
+		}
+
+#board
+	{
+		height:710px;
+		width:870px;
+		margin:0px;
+		padding:0px;
+		background:url(../images/Board-Bg.png) no-repeat;
+	}
+#top-section
+	{
+		width:510px;
+		height:180px;
+		margin-left:180px;
+		margin-right:180px;
+		/*background:#00FFFF;*/
+		position:absolute;
+		z-index:4000;
+	}
+
+#left-section
+	{
+		width:180px;
+		height:350px;
+		/*background:#993300;*/
+		position:absolute;
+		margin-top:180px;
+		margin-bottom:180px;
+		z-index:4001;
+	}
+#right-section
+	{
+		width:180px;
+		height:350px;
+		margin-left:690px;
+		/*background:#CCCC00;*/
+		position:absolute;	
+		margin-top:180px;
+		margin-bottom:180px;
+		z-index:4002;
+	}
+#bottom-section
+	{
+		width:510px;
+		height:180px;
+		margin-top:530px;
+		margin-left:180px;
+		margin-right:180px;
+		/*background:#3333CC;*/
+		position:absolute;	
+		z-index:4002;
+	}
+
+#top-section .card
+	{
+		background:url(../images/Cover-Card.png) no-repeat;
+		width:131px;
+		height:159px;
+		position:absolute;
+		
+	}
+#left-section .card
+	{
+		background:url(../images/Cover-Card.png) no-repeat;
+		width:131px;
+		height:159px;
+		position:absolute;
+		
+		
+	}
+#right-section .card
+	{
+		background:url(../images/Cover-Card.png) no-repeat;
+		width:131px;
+		height:159px;
+		position:absolute;
+		margin-left:48px;
+	}
+#bottom-section .card
+	{
+		background:#FFFFFF;
+		width:129px;
+		height:180px;
+		position:absolute;
+		-moz-border-radius: 8px;
+		border-radius: 8px;
+	}	
