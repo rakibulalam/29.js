@@ -1,6 +1,5 @@
 # 29.js
 
-# transformer.js
 
 **Description:** It's twenty nine card game plugin based on jQuery
 

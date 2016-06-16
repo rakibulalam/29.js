@@ -1,6 +1,12 @@
-/* 
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+/*
+ * Radar: A simple 29 card game plugin
+ * Developed by: Md Rakibulalam
+ * Country: Bangladesh
+ * Contact: email: rakibulalambd@gmail.com, cell: +88-01722488810, skype:rakibulalam
+ * Contribute: https://github.com/rakibulalam/29.js.git
+ *
+ * @license: MIT license: http://opensource.org/licenses/MIT
+ *
  */
 (function($) {
     $.fn.JsTweentyNine = function() {
